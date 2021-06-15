@@ -1,0 +1,7 @@
+---
+
+- name: 'This is a command that shows some output'
+  command: >-
+    echo "This is a command ran on several lines
+    so you can see that the verbosity parameter
+    -vvv (which is supposed to show output) is not showing any"

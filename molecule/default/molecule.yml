@@ -1,0 +1,16 @@
+---
+dependency:
+  name: galaxy
+driver:
+  name: docker
+platforms:
+  - name: python
+    image: python:latest
+    pre_build_image: true
+provisioner:
+  name: ansible
+  log: true
+  options:
+    vvv: true
+verifier:
+  name: ansible
